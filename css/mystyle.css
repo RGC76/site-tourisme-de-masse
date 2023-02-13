@@ -1,0 +1,305 @@
+html {
+  font-family: ak;
+  margin-left: -8px;
+}
+
+#a1 {
+
+  background-image: url("img/63046277-45546518.jpg");
+  background-repeat: no-repeat;
+  
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 0px;
+}
+.black{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#a2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+}
+
+.objet {
+
+  background: red;
+
+}
+
+#text {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+   background-color: rgba(0, 0, 0, 0.7); 
+
+}
+
+#navbar {
+  display: flex;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background: #0a7cb1;
+height: 70px;
+
+}
+
+.chill {
+  display: flex;
+  min-height: 50px;
+  align-items: start;
+  flex-wrap: nowrap;
+}
+
+l {
+  padding: 14px 16px;
+}
+
+
+#article {
+  display: flex;
+  align-items: center;
+  border: 4px solid #66bce4;
+  border-radius: 15px;
+  max-width: 55%;
+  justify-content: space-around;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 20%;
+  background-color: rgb(218, 235, 240);
+
+}
+
+#sommaire {
+  display: flex;
+  border: 4px solid #5598b8;
+  border-radius: 15px;
+  justify-content: start;
+  width: 20%;
+  align-items: start;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+
+}
+#autre{
+  display:flex; 
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+  
+}
+.autre {
+  border: 4px solid #5289a3;
+  border-radius: 15px;
+  align-items: start;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+
+.button {
+  border: 2px solid #00aeff;
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 15px;
+  max-height: 20px ;
+  margin-top: 10px;
+  
+}
+.button:hover{
+  background-color:rgb(69, 142, 252) ;
+}
+
+#accueil {
+  margin-left:20px ;
+}
+
+
+#texte {
+  border: 2px solid #00aeff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#titreg {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+#tsomm {
+  padding-left: 20px;
+}
+
+.fantome {
+  display: none;
+  position: static;
+}
+
+#sg {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  margin-left: 15px;
+}
+
+@font-face {
+  font-family: ak;
+  src: url("Akira Expanded Demo.otf");
+}
+
+h2 {
+  font-family: GE;
+}
+
+@font-face {
+  font-family: GE;
+  src: url("Garet-Heavy.ttf");
+}
+
+@font-face {
+  font-family: CO;
+  src: url("Comfortaa-Bold.ttf");
+}
+
+P {
+  font-family: CO;
+}
+
+ul {
+  font-family: CO;
+}
+li {
+  font-family: MO;
+  font-size: 1.2em; 
+}
+body {
+  background-image: url('10891746-18017950.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#redire{
+  display: flex;
+  flex-direction: column;
+
+}
+#redire > *{
+  margin-left: 25px;
+}
+#comment > *{
+  margin-left:15px ;
+}
+#comment{
+  display: flex;
+  flex-direction: column;
+}
+al{
+  margin-left: 15px;
+}
+#ab{
+  display:flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+#se{
+  min-width: 80px;
+}
+logo{
+  background-image: url(logotourisme.png);
+  min-width: 250px;
+  min-height: 350px;
+  background-size: contain;
+}
+@font-face {
+  font-family: MO;
+  src: url("monofonto rg.otf");
+}
+h3{
+   font-family: MO;
+}
+#paysage{
+  max-width: 1056px;
+}
+#paysage2{
+  max-width: 800px;
+  min-width: 800px;
+  
+ 
+ 
+}
+img{
+  display: flex;
+  max-width: inherit;
+}
+#paysage22{
+  display:flex;
+  justify-content: center;
+}
+#paysage3{
+  max-width: 800px;
+  min-width: 800px;
+}
+#paysage33{
+  display:flex;
+  justify-content: center;
+}
+
+#paysage4{
+  max-width: 800px;
+  min-width: 800px;
+}
+#paysage44{
+  display:flex;
+  justify-content: center;
+}
+#paysage5{
+  max-width: 700px;
+  min-width: 600px;
+}
+#paysage55{
+  display:flex;
+  justify-content: center;
+}
+#paysage6{
+  max-width: 500px;
+  min-width: 300px;
+
+}
+
+#paysage66{
+  display:flex;
+  justify-content: center;
+}
+#paysage7{
+  max-width: 700px;
+  min-width: 600px;
+}
+
+#paysage77{
+  display:flex;
+  justify-content: center;
+}
+#paysage8{
+  max-width: 700px;
+  min-width: 600px;
+}
+#paysage88{
+  display:flex;
+  justify-content: center;
+}
